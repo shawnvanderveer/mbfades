@@ -2,36 +2,49 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>MB Fades</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
-  </head>
-  <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
 
-    <!-- Calendly inline widget begin -->
-    <div style="width: 95vw; height:100vh; margin: auto;">
-    <div
-      class="calendly-inline-widget"
+<head class="example">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="" />
+</head>
+<style>
+  .example::-webkit-scrollbar {
+    display: none;
+  }
+
+  .example {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  #verdeling {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+</style>
+
+<body class="example" style="background-color: #1d1d1b">
+  <div id="verdeling">
+    <div style="height: 10vh"></div>
+    <div class="calendly-inline-widget example"
       data-url="https://calendly.com/info-60528/kappersafspraak-mb-fades?hide_event_type_details=1&hide_gdpr_banner=1&background_color=1d1d1b&text_color=ffffff&primary_color=ffffff"
-      style="min-width: 90%; height: 90%"
-    ></div></div>
-    <script
-      type="text/javascript"
-      src="https://assets.calendly.com/assets/external/widget.js"
-      async
-    ></script>
-    <!-- Calendly inline widget end -->
-  </body>
+      style="
+          top: 0px;
+          right: 0px;
+          bottom: 0px;
+          left: 0px;
+          position: absolute;
+          background-color: #1d1d1b;
+        "></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+  </div>
+</body>
+
 </html>
